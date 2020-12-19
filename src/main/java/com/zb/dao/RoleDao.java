@@ -5,7 +5,7 @@ import com.zb.model.Role;
 import java.util.List;
 
 /**
- * Created by zhangbin on 2018/8/10.
+ * Created by cuifengbo on 2020/12/9.
  */
 public interface RoleDao {
     List<Role> selectRoleByUserId(int userId);

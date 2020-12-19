@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 
 /**
- * Created by zhangbin on 2018/8/17.
+ * Created by cuifengbo on 2020/12/9.
  */
 @Service
 public class SolrServiceImpl implements SolrService {

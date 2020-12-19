@@ -1,7 +1,7 @@
 package com.zb.designpattern.observe;
 
 /**
- * Created by zhangbin on 2018/8/23.
+ * Created by cuifengbo on 2020/12/9.
  */
 public interface ToObserver {
     void registerObserver(Observer observer);

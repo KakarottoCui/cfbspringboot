@@ -3,7 +3,7 @@ package com.zb.designpattern.prototype;
 import java.util.List;
 
 /**
- * Created by zhangbin on 2018/8/21.
+ * Created by cuifengbo on 2020/12/9.
  */
 public class ProtoTypeBean implements Cloneable {
 

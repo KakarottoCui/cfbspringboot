@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * Created by zhangbin on 2018/8/6.
+ * Created by cuifengbo on 2020/12/9.
  */
 public interface UserService {
     User selectByPrimaryKey(Integer id);

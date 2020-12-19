@@ -1,7 +1,7 @@
 package com.zb.designpattern.proxy;
 
 /**
- * Created by zhangbin on 2018/8/22.
+ * Created by cuifengbo on 2020/12/9.
  */
 public class CglibProxyTest {
     public static void main(String[] args){

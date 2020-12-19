@@ -1,7 +1,7 @@
 package com.zb.designpattern.build;
 
 /**
- * Created by zhangbin on 2018/8/21.
+ * Created by cuifengbo on 2020/12/9.
  */
 public class BuildClass {
 

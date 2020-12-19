@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * Created by zhangbin on 2018/8/7.
+ * Created by cuifengbo on 2020/12/9.
  */
 @WebFilter(filterName = "sessionFilter",urlPatterns = {"/*"})
 public class SessionFilter implements Filter {

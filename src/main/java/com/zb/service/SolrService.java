@@ -1,7 +1,7 @@
 package com.zb.service;
 
 /**
- * Created by zhangbin on 2018/8/17.
+ * Created by cuifengbo on 2020/12/9.
  */
 public interface SolrService {
     void create();

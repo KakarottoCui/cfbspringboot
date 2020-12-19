@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 /**
- * Created by zhangbin on 2018/8/9.
+ * Created by cuifengbo on 2020/12/9.
  */
 @Controller
 public class LoginController {
@@ -57,7 +57,7 @@ public class LoginController {
                 //shiro 的session和request的session封装的是一个，就是说两个都可以
 //                request.getSession().setAttribute(request.getSession().getId(),user);
                 subject.getSession().setAttribute(subject.getSession().getId(),user);
-                return "redirect:/userlist";
+                return "redirect:/admin";
             } else {
                 return "login";
             }

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * Created by zhangbin on 2018/8/6.
+ * Created by cuifengbo on 2020/12/9.
  */
 @Controller
 public class UserController {
@@ -26,6 +26,10 @@ public class UserController {
         return user;
     }
 
+    @RequestMapping("/admin")
+    public String getUserList(){
+        return "admin";
+    }
     @RequestMapping("/userlist")
     @RequiresPermissions("user:list")
     public String getUserList(Model model, PageInfo pageInfo){
@@ -61,6 +65,16 @@ public class UserController {
             userService.updateByPrimaryKeySelective(user);
         }
         return "redirect:/userlist";
+    }
+
+    @RequestMapping("/userContent1")
+    public String getUserContent1(){
+        return "content1";
+    }
+
+    @RequestMapping("/userIndex")
+    public String getUserIndex(){
+        return "index";
     }
 
 }

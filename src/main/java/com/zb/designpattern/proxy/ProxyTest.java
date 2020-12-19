@@ -3,7 +3,7 @@ package com.zb.designpattern.proxy;
 import java.lang.reflect.Proxy;
 
 /**
- * Created by zhangbin on 2018/8/22.
+ * Created by cuifengbo on 2020/12/9.
  */
 public class ProxyTest {
     public static void main(String[] args){

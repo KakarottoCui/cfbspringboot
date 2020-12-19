@@ -3,7 +3,7 @@ package com.zb.designpattern.singleton;
 /**
  * 饱汉模式
  *
- * Created by zhangbin on 2018/8/21.
+ * Created by cuifengbo on 2020/12/9.
  */
 public class SingleClassOne {
 

@@ -1,7 +1,7 @@
 package com.zb.designpattern.strategy;
 
 /**
- * Created by zhangbin on 2018/8/23.
+ * Created by cuifengbo on 2020/12/9.
  */
 public class VipPlayer implements Player {
     @Override
