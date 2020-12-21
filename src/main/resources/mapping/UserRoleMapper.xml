@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zb.mapper.UserRoleMapper" >
-  <resultMap id="BaseResultMap" type="com.zb.model.UserRole" >
+<mapper namespace="com.cfb.mapper.UserRoleMapper" >
+  <resultMap id="BaseResultMap" type="com.cfb.model.UserRole" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="user_id" property="userId" jdbcType="VARCHAR" />
     <result column="role_id" property="roleId" jdbcType="VARCHAR" />
@@ -19,13 +19,13 @@
     delete from user_role
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.zb.model.UserRole" >
+  <insert id="insert" parameterType="com.cfb.model.UserRole" >
     insert into user_role (id, user_id, role_id
       )
     values (#{id,jdbcType=INTEGER}, #{userId,jdbcType=VARCHAR}, #{roleId,jdbcType=VARCHAR}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.zb.model.UserRole" >
+  <insert id="insertSelective" parameterType="com.cfb.model.UserRole" >
     insert into user_role
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -50,7 +50,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.zb.model.UserRole" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.cfb.model.UserRole" >
     update user_role
     <set >
       <if test="userId != null" >
@@ -62,7 +62,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.zb.model.UserRole" >
+  <update id="updateByPrimaryKey" parameterType="com.cfb.model.UserRole" >
     update user_role
     set user_id = #{userId,jdbcType=VARCHAR},
       role_id = #{roleId,jdbcType=VARCHAR}

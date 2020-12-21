@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zb.mapper.PermissionMapper" >
-  <resultMap id="BaseResultMap" type="com.zb.model.Permission" >
+<mapper namespace="com.cfb.mapper.PermissionMapper" >
+  <resultMap id="BaseResultMap" type="com.cfb.model.Permission" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="permissionname" property="permissionname" jdbcType="VARCHAR" />
     <result column="resourceType" property="resourcetype" jdbcType="VARCHAR" />
@@ -24,7 +24,7 @@
     delete from permission
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.zb.model.Permission" >
+  <insert id="insert" parameterType="com.cfb.model.Permission" >
     insert into permission (id, permissionname, resourceType, 
       url, permission, status, 
       create_time, update_time)
@@ -32,7 +32,7 @@
       #{url,jdbcType=VARCHAR}, #{permission,jdbcType=VARCHAR}, #{status,jdbcType=VARCHAR}, 
       #{createTime,jdbcType=DATE}, #{updateTime,jdbcType=DATE})
   </insert>
-  <insert id="insertSelective" parameterType="com.zb.model.Permission" >
+  <insert id="insertSelective" parameterType="com.cfb.model.Permission" >
     insert into permission
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -87,7 +87,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.zb.model.Permission" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.cfb.model.Permission" >
     update permission
     <set >
       <if test="permissionname != null" >
@@ -114,7 +114,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.zb.model.Permission" >
+  <update id="updateByPrimaryKey" parameterType="com.cfb.model.Permission" >
     update permission
     set permissionname = #{permissionname,jdbcType=VARCHAR},
       resourceType = #{resourcetype,jdbcType=VARCHAR},
