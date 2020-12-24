@@ -6,4 +6,4 @@
 
 运行入口http://localhost:8080/login
 预览图：
-![image](https://github.com/KakarottoCui/cfbspringboot/blob/master/src/main/resources/static/image/capture_20201224100353832.bmp)
+![image](https://github.com/KakarottoCui/cfbspringboot/blob/master/src/main/resources/static/image/11.jpg)
