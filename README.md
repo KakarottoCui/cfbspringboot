@@ -4,7 +4,9 @@
 
 本框架精简干练，适合项目的起始开发或者为移动端提供后台接口
 
-运行入口http://localhost:8080/login
+从零开始搭建springboot框架 https://blog.csdn.net/weixin_45864004/article/details/108651952
+
+运行入口 http://localhost:8080/login
 
 预览图：
 
