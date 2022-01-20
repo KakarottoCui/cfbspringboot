@@ -4,12 +4,8 @@
 
 本框架精简干练，适合项目的起始开发或者为移动端提供后台接口
 
-从零开始搭建springboot框架 https://blog.csdn.net/weixin_45864004/article/details/108651952
+从零开始搭建springboot框架 https://blog.csdn.net/qq_28245905/article/details/121588034
 
 运行入口 http://localhost:8080/login
 
-预览图：
 
-![image](https://github.com/KakarottoCui/cfbspringboot/blob/master/src/main/resources/static/image/11.jpg)
-
-![image](https://github.com/KakarottoCui/cfbspringboot/blob/master/src/main/resources/static/image/12.jpg)
